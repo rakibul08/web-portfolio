@@ -29,6 +29,9 @@ nav{
 }
 
 /* share tittle */
+.section-bg{
+
+}
 
 .primre{
     color: rgb(189, 18, 18);
@@ -57,6 +60,16 @@ nav li a{
     border-radius: 5px;
     border: none;
 }
+.about{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818 ;
+}
+.section-decription{
+    font-size: 18px;
+    color:#757575;
+}
+
 /* banner part */
 .banner{
     display: flex;
@@ -81,3 +94,23 @@ nav li a{
     width: 584px;
     height: 676;
 } 
+/* main style */
+main{
+    max-width: 1140;
+    margin:  0 auto;
+}
+/* about */
+.about{
+border-radius: 10px;
+padding:  130px 150px;
+text-align: center;
+margin-top: 130px;
+}
+.about-item{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item-description{
+    font-weight:600px;
+}
